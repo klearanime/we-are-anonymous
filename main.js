@@ -72,9 +72,13 @@ const titleCaseNames = function (names) {
 }
 
 const doubleEveryOther = function (nums) {
-  
+  let other = nums.slice(0)
+  for (let i = 1; i < other.length; i+=2) {
+    other[i] *= 2
+    }
+    return other
 }
-
+  
 
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
